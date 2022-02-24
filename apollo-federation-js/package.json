@@ -1,0 +1,13 @@
+{
+  "name": "federation-demo",
+  "main": "gateway.js",
+  "scripts": {
+    "start-gateway": "node gateway.js"
+  },
+  "dependencies": {
+    "@apollo/gateway": "latest",
+    "@apollo/subgraph": "^0.3.1",
+    "apollo-server": "latest",
+    "graphql": "latest"
+  }
+}
